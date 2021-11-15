@@ -1,0 +1,26 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    color: gold;
+}
+section{
+    position:absolute;
+    border: 5px solid rgb(235, 194, 11);
+    height: 39.5vh;
+    background-color: rgba(27, 67, 141, 0.007);
+    
+}
+.container{
+    max-width: 700px;
+    margin:auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.submit-Align{
+    max-width: 700px;
+    margin:auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}

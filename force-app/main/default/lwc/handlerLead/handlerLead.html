@@ -1,0 +1,8 @@
+<template>
+    <template if:true= {ShowButtons}>
+        <c-button-lead onclick={handleClickLeadForm}></c-button-lead>
+    </template>
+    <template if:true={CreateLead}>
+        <c-web-to-lead></c-web-to-lead>
+    </template>
+</template>

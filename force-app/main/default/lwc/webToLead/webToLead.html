@@ -1,0 +1,41 @@
+<template>
+    <!-- <!DOCTYPE HTML>
+    <head>
+        <title>Farmer's Form</title>
+        <meta http-equiv="Content-type" content="text/html; charset=UTF-8"/>
+        <link rel="stylesheet" href="WebtoLead.css"/>
+    </head> -->
+    
+        <section>
+            <lightning-card>
+                <div class="container">
+                    <h1>Please fill out this form</h1>
+                </div>
+                <form action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST">
+                    <input type="hidden" name="oid" value="00D5f000005tlM4" />
+                    <input type="hidden" name="retURL" value="https://static0.gamerantimages.com/wordpress/wp-content/uploads/Vault-Boy-Thumbs-Up.jpg?q=50&fit=contain&w=960&h=500&dpr=1.5" />
+
+                    <label for="first_name">First Name</label><input style="width: 200px; float:right;" id="first_name" maxlength="40"  name="first_name" size="20" type="text" /><br><br>
+
+                    <label for="last_name">Last Name</label><input style="width: 200px; float:right;" maxlength="80" name="last_name" size="20" type="text" /><br><br>
+
+                    <label for="email">Email</label><input style="width: 200px; float:right;" id="email" maxlength="80" name="email" size="20" type="text" /><br><br>
+
+                    <label for="city">City</label><input style="width: 200px; float:right;" id="city" maxlength="40" name="city" size="20" type="text" /><br><br>
+
+                    <label for="state">State/Province</label><input style="width: 200px; float:right;" id="state" maxlength="20" name="state" size="20" type="text" /><br><br>
+
+                    <label for="Campaign_ID">Campaign</label>
+
+                    <select id="Campaign_ID" style="float:right; width: 200px;" name="Campaign_ID">
+                        <option value="">--None--</option>
+                        <option value="7015f000000UDgx">Fall Campaign</option>
+                    </select>
+                    <br />
+                    <div class="submit-Align">
+                        <input type="submit" style="background-color:rgb(13, 57, 139)" name="submit"/>
+                    </div>
+                </form>
+            </lightning-card>
+        </section>
+</template>
